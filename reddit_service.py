@@ -16,5 +16,5 @@ def reply(comment, dbValue):
     try:
         comment.reply(const.BOT_MESSAGE % (dbValue['text'], dbValue['audio']))
     except praw.exceptions.APIException as e:
-        logging.debug("Couldn't reply to comment - " + e.message)
+        logging.error("Couldn't reply to comment - " + e.message)
         pass

@@ -19,3 +19,9 @@ SUBREDDIT = 'darkestdungeon'
 # Amount of new & hot posts to check comments on
 NEW_POST_LIMIT = 15
 HOT_POST_LIMIT = 30
+
+# How many minutes should the bot sleep for before scanning for comments again
+SLEEP_MINUTES = 1
+
+# Debug/Log information - Leave FILE_NAME blank for no output logging
+LOG_FILE_NAME = "app.log"

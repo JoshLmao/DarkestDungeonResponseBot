@@ -24,6 +24,7 @@ def cleanString(phraseStr, toLower=True):
     else:
         return phraseStr
 
+# Searches the database for a match to the phrase
 def checkDatabase(respDatabase, phrase):
     responses = respDatabase[const.DATABASE_MASTER_KEY]
     for r in responses:
@@ -36,16 +37,19 @@ def checkDatabase(respDatabase, phrase):
         # if (phrase in responseLine):
         #     return r
 
+# Check to see if the bot already replied to the comment
 def hasReplied(repliesArray):
     for reply in repliesArray:
         if reply.author != None and reply.author.name == const.BOT_NAME:
             return True
 
+# Checks a post comments for a match
 def checkComments(respDatabase, post):
     for comment in post.comments:
         # Check if already posted a response
         if hasReplied(comment.replies):
-            logging.debug("Already to replied to comment with id %s" % (comment.id))
+            commentFiveWords = comment.body.split()[:5]
+            logging.info("Already to replied to comment '%s' by '%s' on post '%s'" % (" ".join(commentFiveWords), comment.author.name, post.title))
             continue
             
         commentClean = cleanString(comment.body)
@@ -53,6 +57,7 @@ def checkComments(respDatabase, post):
         if dbMatch != None:
             reddit.reply(comment, dbMatch)
 
+# Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
     subreddit = reddit.getSub(const.SUBREDDIT)
     for post in subreddit.new(limit=const.NEW_POST_LIMIT):
@@ -61,24 +66,31 @@ def scan(respDatabase):
     for post in subreddit.hot(limit=const.HOT_POST_LIMIT):
         checkComments(respDatabase, post)
 
+# Reads the db file name and returns the db
 def loadDatabase():
     with open(const.DATABASE_FILE_NAME) as jsonFile:
         return json.load(jsonFile)
 
 def main():
-    logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(levelname)s - %(message)s')
-    logging.debug("Starting program")
-    
-    responseDatabase = loadDatabase()
+    # Output a log if FILE_NAME isn't blank
+    if const.LOG_FILE_NAME != "":
+        logging.basicConfig(filename=const.LOG_FILE_NAME, level=logging.INFO, format='%(asctime)s.%(msecs)03d %(levelname)s | %(message)s', datefmt='%d-%m-%Y %H:%M:%S',)
+    logging.info("Starting program")
 
+    # Load database into memory
+    responseDatabase = loadDatabase()
     while True:
-        logging.debug("Beginning to scan comments...")
+        logging.info("Beginning to scan comments...")
         scan(responseDatabase)
 
-        # Complete scan and sleep for X seconds
-        sleepSeconds = 30
-        logging.debug("Completed scanning comments. Sleeping for "+str(sleepSeconds)+" seconds")
-        time.sleep(sleepSeconds)
+        # Complete scan and sleep for X minutes
+        logging.info("Completed scanning comments. Sleeping for %d minutes" % const.SLEEP_MINUTES)
+        time.sleep(const.SLEEP_MINUTES * 60)
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt as keyEx:
+        logging.info("Stopped program because of keyboard interruption")
+    except Exception as e:
+        logging.error("Unknown exception - " + str(e))
