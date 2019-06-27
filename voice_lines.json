@@ -1,0 +1,1709 @@
+{
+    "voice-lines": [
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/ce/Vo_narr_tut_firstdungeon.ogg",
+            "text": "Brigands have the run of these lanes. Keep to the side path; the Hamlet is just ahead."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d1/Vo_narr_tut_seconddungeon.ogg",
+            "text": "Dispatch this thug in brutal fashion, that all may hear of your arrival!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2f/Vo_narr_tut_firstcurio.ogg",
+            "text": "Leave nothing unchecked, there is much to be found in forgotten places."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9b/Vo_narr_tut_firstbattle.ogg",
+            "text": "An ambush! Send these vermin a message: the rightful owner has returned, and their kind is no longer welcome."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/30/Vo_narr_tut_firsttown.ogg",
+            "text": "Welcome home, such as it is. This squalid hamlet, these corrupted lands, they are yours now, and you are bound to them."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b5/Vo_narr_tut_firstquest.ogg",
+            "text": "This sprawling estate, a Mecca of madness and morbidity. Your work begins..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e2/Vo_narr_tut_firstprov.ogg",
+            "text": "The cost of preparedness - measured now in gold, later in blood."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/80/Vo_narr_tut_firststage.ogg",
+            "text": "Women and men; soldiers and outlaws; fools and corpses. All will find their way to us now that the road is clear."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0d/Vo_narr_tut_firsttavern.ogg",
+            "text": "Fresh kegs, cards, and curtained rooms promise solace to the weary and the broken alike."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/46/Vo_narr_tut_firstabbey.ogg",
+            "text": "The cobwebs have been dusted, the pews set straight. The Abbey calls to the faithful..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/51/Vo_narr_tut_firstblack.ogg",
+            "text": "The bellows blast once again! The forge stands ready to make weapons of war."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5e/Vo_narr_tut_firstguild.ogg",
+            "text": "Make no mistake, we will face ever greater threats. Our soldiers must be ready."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6b/Vo_narr_tut_firstsurvival.ogg",
+            "text": "At home in wild places, she is a stalwart survivor, and a strict instructor."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8a/Vo_narr_tut_firstnomad.ogg",
+            "text": "Trinkets and charms, gathered from all the forgotten corners of the earth..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d0/Vo_narr_tut_firstgrave.ogg",
+            "text": "Most will end up here, covered in the poisoned earth, awaiting merciful oblivion."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e8/Vo_narr_town_backstory_14.ogg",
+            "text": "In time, you will know the tragic extent of my failings..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/80/Vo_narr_town_backstory_02.ogg",
+            "text": "I remember days when the sun shone, and laughter could be heard from the tavern."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/41/Vo_narr_town_backstory_03.ogg",
+            "text": "I was lord of this place, before the crows and rats made it their domain."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a5/Vo_narr_town_backstory_05.ogg",
+            "text": "In truth I cannot tell how much time has passed since I sent that letter."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_town_backstory_01.ogg",
+            "text": "Once, our estate was the envy of this land..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/26/Vo_narr_town_backstory_09.ogg",
+            "text": "Our family name, once so well regarded, is now barely whispered aloud by decent folk."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5d/Vo_narr_town_backstory_04.ogg",
+            "text": "I see something long-absent in the sunken faces of passersby - a glimmer of hope."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e3/Vo_narr_town_backstory_06.ogg",
+            "text": "The poor Caretaker, I fear his long-standing duties here have ...affected him."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e5/Vo_narr_town_backstory_07.ogg",
+            "text": "The degeneracy of the Hamlet is nothing, I fear, when compared to the condition of surrounding acres."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fb/Vo_narr_town_backstory_08.ogg",
+            "text": "My obsession caused this great foulness, and it is shameful that I must rely upon you to set it right."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/52/Vo_narr_town_backstory_10.ogg",
+            "text": "I can still see their angry faces as they stormed the manor, but I was dead before they found me, and the letter was on its way."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d3/Vo_narr_town_backstory_11.ogg",
+            "text": "There is a great horror beneath the manor: a Crawling Chaos that must be destroyed!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1f/Vo_narr_town_backstory_12.ogg",
+            "text": "Curiosity, interest, and obsession — mile markers on my road to damnation."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/10/Vo_narr_town_backstory_13.ogg",
+            "text": "Trouble yourself not with the cost of this crusade - its noble end affords you broad tolerance in your choice of means."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/93/Vo_narr_town_backstory_15.ogg",
+            "text": "Let me share with you the terrible wonders I have come to know..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4f/Vo_narr_town_backstory_16.ogg",
+            "text": "You answered the letter — now like me, you are part of this place."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/35/Vo_narr_town_backstory_17.ogg",
+            "text": "We dug for months, years — an eternity. And we were rewarded with madness."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3d/Vo_narr_town_backstory_18.ogg",
+            "text": "The plume and the pistol — a fitting end to my folly, and a curse upon us all."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/32/Vo_narr_town_backstory_20.ogg",
+            "text": "Can you feel it? The walls between the sane world and that unplumbed dimension of delirium are tenuously thin here..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a6/Vo_narr_town_backstory_21.ogg",
+            "text": "All my life, I could feel an insistent gnawing in the back of my mind. It was a yearning, a thirst for discovery that could be neither numbed, nor sated."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/02/Vo_narr_town_backstory_22.ogg",
+            "text": "An eternity of futile struggle — a penance for my unspeakable transgressions."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/38/Vo_narr_town_backstory_19.ogg",
+            "text": "All the decadent horrors I have seen pale in comparison with that final, crowning thing. I could not look, nor could I look away!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/45/Vo_narr_town_upgrade_stage_01.ogg",
+            "text": "Great heroes can be found even here, in the mud and rain."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/21/Vo_narr_town_upgrade_stage_03.ogg",
+            "text": "More arrive, foolishly seeking fortune and glory in this domain of the damned."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d4/Vo_narr_town_upgrade_stage_02.ogg",
+            "text": "Word is travelling. Ambition is stirring in distant cities. We can use this."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c0/Vo_narr_town_upgrade_tavern_01.ogg",
+            "text": "With enough ale, maybe they can be inured against the horrors below."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/31/Vo_narr_town_upgrade_tavern_03.ogg",
+            "text": "All manner of diversion and dalliance await those who cross the threshold with coin in hand."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_town_upgrade_tavern_02.ogg",
+            "text": "Strong drink, a game of chance, and companionship. The rush of life."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/bb/Vo_narr_town_upgrade_abbey_01.ogg",
+            "text": "A little hope, however desperate, is never without worth."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/47/Vo_narr_town_upgrade_abbey_02.ogg",
+            "text": "Gilded icons and dogmatic rituals... for some, a tonic against the bloodshed."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b4/Vo_narr_town_upgrade_abbey_03.ogg",
+            "text": "A man in a robe, claiming communion with the divine. Madness."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8a/Vo_narr_town_upgrade_blacksmith_01.ogg",
+            "text": "In the end, every plan relies upon a strong arm, and tempered steel."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4a/Vo_narr_town_upgrade_blacksmith_03.ogg",
+            "text": "A sharper sword, a stronger shield. Anything to prolong a soldier's life."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b0/Vo_narr_town_upgrade_blacksmith_02.ogg",
+            "text": "Fan the flames! Mold the metal! We are raising an army!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/29/Vo_narr_town_upgrade_guild_01.ogg",
+            "text": "Some may fall, but their knowledge lives on."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b2/Vo_narr_town_upgrade_guild_02.ogg",
+            "text": "Every creature has a weakness. The wise hero trains for what she will face."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a4/Vo_narr_town_upgrade_guild_03.ogg",
+            "text": "A strict regimen is paramount, if one is to master the brutal arithmetic of combat."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e2/Vo_narr_town_upgrade_camp_01.ogg",
+            "text": "Alone in the woods or tunnels, survival is the same. Prepare, persist, and overcome."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5d/Vo_narr_town_upgrade_camp_03.ogg",
+            "text": "Success depends on survival."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/20/Vo_narr_town_upgrade_camp_02.ogg",
+            "text": "They must learn more than brutal bloodletting — they must learn to survive!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/82/Vo_narr_town_upgrade_nomad_01.ogg",
+            "text": "Rarities and curios, sold at a profit, of course."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c1/Vo_narr_town_upgrade_nomad_02.ogg",
+            "text": "Idol, amulet, or lucky charm — the simplest object can be a talisman against evil."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4c/Vo_narr_town_upgrade_nomad_03.ogg",
+            "text": "An increasing stockpile of curious trinkets, gathered from forbidden places."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9d/Vo_narr_town_upgrade_sanit_01.ogg",
+            "text": "The front line of this war is not in the dungeon, but rather, inside the mind."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8b/Vo_narr_town_upgrade_sanit_02.ogg",
+            "text": "Experimental techniques and tonics can overcome things a sharpened sword cannot."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c7/Vo_narr_town_upgrade_sanit_03.ogg",
+            "text": "Curious methodologies and apparatus can calm even the most tormented soul."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7d/Vo_narr_town_rec_abm.ogg",
+            "text": "Tortured and reclusive... this man is more dangerous than he seems..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/55/Vo_narr_town_rec_antq.ogg",
+            "text": "She searches where others will not go... and sees what others will not see."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9c/Vo_narr_town_rec_arb.ogg",
+            "text": "Shoot, bandage and pillage: the dancing steps of war."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e8/Vo_narr_town_rec_bh.ogg",
+            "text": "The thrill of the hunt... The promise of payment..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cb/Vo_narr_town_rec_cru.ogg",
+            "text": "A mighty sword-hand anchored by a holy purpose. A zealous warrior."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c2/Vo_narr_town_rec_grv.ogg",
+            "text": "To those with the keen eye, gold gleams like a dagger's point."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f9/Vo_narr_town_rec_hll.ogg",
+            "text": "Barbaric rage and unrelenting savagery make for a powerful ally."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/83/Vo_narr_town_rec_hwy.ogg",
+            "text": "Elusive, evasive, persistent. Righteous traits for a rogue."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/64/Vo_narr_town_rec_hnd.ogg",
+            "text": "A lawman and his faithful beast. A bond forged by battle and bloodshed."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0b/Vo_narr_town_rec_jest.ogg",
+            "text": "He will be laughing still... at the end."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/18/Vo_narr_town_rec_lep.ogg",
+            "text": "This man understands that adversity and existence are one and the same."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/19/Vo_narr_town_rec_maa.ogg",
+            "text": "The raw strength of youth may be spent, but his eyes hold the secrets of a hundred campaigns."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/44/Vo_narr_town_rec_occ.ogg",
+            "text": "To fight the abyss, one must know it..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/71/Vo_narr_town_rec_plg.ogg",
+            "text": "What better laboratory than the blood-soaked battlefield?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5a/Vo_narr_town_rec_vst.ogg",
+            "text": "A sister of battle. Pious and unrelenting."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1d/Vo_narr_town_rec_mus.ogg",
+            "text": "A champion markswoman keen for a new kind of challenge."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a1/Vo_narr_town_dismiss_05.ogg",
+            "text": "This one has become vestigial, useless."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/62/Vo_narr_town_dismiss_04.ogg",
+            "text": "Suffer not the lame horse... nor the broken man."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b5/Vo_narr_town_dismiss_01.ogg",
+            "text": "Another soul battered and broken, cast aside like a spent torch."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1a/Vo_narr_town_dismiss_02.ogg",
+            "text": "Those without the stomach for this place must move on."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b8/Vo_narr_town_dismiss_07.ogg",
+            "text": "It is done. Turn yourself now to the conditions of those poor devils who remain."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f9/Vo_narr_town_dismiss_03.ogg",
+            "text": "Send this one to journey elsewhere, for we have need of sterner stock."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ec/Vo_narr_town_dismiss_08.ogg",
+            "text": "Slumped shoulders, wild eyes, and a stumbling gait - this one is no more good to us."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/29/Vo_narr_town_dismiss_06.ogg",
+            "text": "The task ahead is terrible, and weakness cannot be tolerated."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d9/Vo_narr_load_crypts_04.ogg",
+            "text": "Excavations beneath the manor were well underway, when a particular ragged indigent arrived in the hamlet. This filthy, toothless miscreant boasted an uncanny knowledge of my ambitions and prognosticated publicly that left unchecked, I would soon unleash doom upon the world."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/53/Vo_narr_load_crypts_05.ogg",
+            "text": "This raving creature had to be silenced, but, to my bafflement, doing so proved maddeningly impossible. How had he survived the stockades, the icy waters, and the knives I delivered so enthusiastically into his back? How had he returned time and time again to rouse the townsfolk with his wild speculations and prophecies?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/73/Vo_narr_load_crypts_06.ogg",
+            "text": "Finally, resigned to his uncommon corporeal resilience, I lured him to the dig. There, I showed him the Thing, and detailed the full extent of my plans. Triumphantly, I watched as he tore his eyes from their sockets, and ran shrieking into the shadows - wailing maniacally that the end was upon us all."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6f/Narration_load_crypts_01.ogg",
+            "text": "Mastery over life and death was chief among my early pursuits. I began in humility, but my ambition was limitless. Who could have divined the prophetic import of something as unremarkable as a twitch in the leg of a dead rat?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fc/Narration_load_crypts_02.ogg",
+            "text": "I entertained a delegation of experts from overseas, eager to plumb the depths of their knowledge and share with them certain techniques and alchemical processes I had found to yield wondrous and terrifying results. Having learned all I could from my visiting guests, I murdered them as they slept."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d2/Narration_load_crypts_03.ogg",
+            "text": "I brought my colleagues back with much of their intellect intact, a remarkable triumph for even the most experienced necromancer. Freed from the trappings of their humanity, they plied their terrible trade anew - the dead reviving the dead, on and on down the years... forever."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/11/Narration_load_weald_01.ogg",
+            "text": "I had collected many rare and elusive volumes on ancient herbal properties, and was set to enjoy several weeks immersed in comfortable study. My work was interrupted, however, by a singularly striking young woman who insisted on repeated calls to the house."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/33/Narration_load_weald_02.ogg",
+            "text": "Her knowledge of horticulturalism, and its role in various arcane practices impressed me greatly. My licentious impulse gave way to a genuine, professional respect, and together, we began to plant, harvest, and brew."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/90/Narration_load_weald_03.ogg",
+            "text": "As time wore on, her wild policy of self-experimentation grew intolerable. She quaffed all manner of strange fungii, herbs and concoctions, intent on gaining some insight into the horror we both knew to be growing beneath us. The change in her was appalling, and, no longer able to stomach it, I sent her to live in the Weald, where her wildness would be welcomed."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a5/Vo_narr_load_weald_04.ogg",
+            "text": "Simple folk are by their nature loquacious, and the denizens of the Hamlet were no exception. It was not long before rumors of my morbid genius and secretive excavations began to fuel local legend. In the face of my increasingly egregious flaunting of public taboos, awe turned to ire, and demonstrations were held in the town square."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/70/Vo_narr_load_weald_05.ogg",
+            "text": "The wild whispers of heresy roused the rabble to violent action. Such was the general air of rebellion that even my generous offer of gold to the local constabulary was rebuffed! To reassert my rule, I sought out unscrupulous men skilled in the application of force. Tight-lipped and terrifying, these mercenaries brought with them a war machine of terrible implication."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e4/Vo_narr_load_weald_06.ogg",
+            "text": "Eager to end the tiresome domestic distraction, I instructed my newly formed militia of hardened bandits, brigands and killers to go forth and do their work. Compliance and order were restored, and the noisome population of the Hamlet was culled to more... manageable numbers."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0a/Narration_load_warrens_01.ogg",
+            "text": "The ways and rituals of blood sacrifice are difficult to master. Those from beyond require a physical vessel if they are to make the crossing into our reality. The timing of the chants is imperative - without the proper utterances at precise intervals, the process can fail spectacularly."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7c/Narration_load_warrens_02.ogg",
+            "text": "My first attempts at summoning were crude and the results, disappointing. I soon found however, that the type and condition of the host's meat was a critical factor. The best results came from pigs, whose flesh is most like that of man."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d5/Narration_load_warrens_03.ogg",
+            "text": "The Great Thing I had managed to bring through was brutish and stupid. Moreover, it required prodigious amounts of meat to sustain itself, but this was only a trifling concern – after all, I had a village full of it."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/20/Vo_narr_load_warrens_04.ogg",
+            "text": "My zeal for blood rituals and summoning rites had begun to ebb as each attempt invariably brought only failure, and disappointment. Progress was halting, and the rapidly accumulating surplus of wasted flesh had become... burdensome."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/ac/Vo_narr_load_warrens_05.ogg",
+            "text": "I could not store such a prodigious amount of offal, nor could I rid myself of it easily, possessed as was by unnameable things from outer spheres. When excavations beneath the Manor broke through into an ancient network of aqueducts and tunnels, I knew I had found a solution to the problem of disposal."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e9/Vo_narr_load_warrens_06.ogg",
+            "text": "The spasmodically squirming, braying, and snorting half-corpses were heaped each upon the other until at last I was rid of them. The Warrens became a landfill of snout and hoof, gristle and bone – a mountainous, twitching mass of misshapen flesh fusing itself together in the darkness."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f4/Vo_narr_load_cove_04.ogg",
+            "text": "My lofty position wasn't always accompanied by the fear of office, and there was a time I could walk the streets or raise a glass in the tavern without concern for molestation. Faithful as the tide, one precocious village waif made it her hobby to shadow my every errand. It was charming then, troublesome later."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/11/Vo_narr_load_cove_05.ogg",
+            "text": "In financial desperation, I struck a bargain with the ancient things that surfaced in search of sacrifice when the moon was right. Their price was the delivery of an obscure idol and one other item of more troubling portent. The pact struck, my newfound accomplices slipped silently beneath the brackish water. A fearful stirring at the edge of the torchlight betrayed a familiar witness, and gifted me with malign inspiration."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0b/Vo_narr_load_cove_06.ogg",
+            "text": "Under the blood moon, I lured my wide-eyed prey to the pier’s edge. Before she could properly appreciate her position, I clamped on a manacle, chaining her to the leering idol. A small push was sufficient to send both into the icy waters. And when at length the tide receded, jewels of the most magnificent grandeur lay scattered upon the shore."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f0/Vo_narr_load_cove_01.ogg",
+            "text": "Prying eyes had become a nuisance along the Old Road, and so I undertook to receive my most curious deliveries by way of marine shipments. A sheltered jetty was accessible by a narrow stone stair off the back of the manor, and a discreet system of pulleys could hoist even the heaviest prizes up the rock face from a securely tied dinghy below."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/10/Vo_narr_load_cove_02.ogg",
+            "text": "I employed a crew of particularly unsavory mariners, who, for a time, sailed the four corners at my behest - retrieving many valuable artifacts, relics and rare texts. Predictably, they increased their tariffs to counter my intense stipulations of secrecy. Such resources had long been exhausted, of course, and so I prepared an... alternative payment."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/73/Vo_narr_load_cove_03.ogg",
+            "text": "While the greedy dogs slept off their revelry, I hexed their anchor with every twisted incantation I could muster - imbuing it with the weight of my ambition, and my contempt for their crude extortion. At the witching hour, the anchor pulled with preternatural force, dragging craft and crew down into the depths. They must have cried out, but no sound escaped the swirling black waters..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/96/Vo_narr_neut_crypts_explore.ogg",
+            "text": "Pace out the halls of your lineage, once familiar, now foreign."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/26/Vo_narr_neut_crypts_cleanse.ogg",
+            "text": "The fiends must be driven back, and what better place to begin than the seat of our noble line?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/da/Vo_narr_neut_crypts_activate.ogg",
+            "text": "Can the defiled be consecrated? Can the fallen find rest?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/72/Vo_narr_neut_crypts_gather.ogg",
+            "text": "There is power in symbols. Collect the scattered scraps of faith and give comfort to the masses."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1a/Vo_narr_neut_crypts_kill_alt.ogg",
+            "text": "The echoes of his mindless tittering reverberate maddeningly..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f6/Vo_narr_neut_weald_explore.ogg",
+            "text": "I knew all these paths once; now they are as twisted as my own ambitions."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/48/Vo_narr_neut_weald_cleanse.ogg",
+            "text": "Corruption has soaked the soil, sapping all good life from these groves - let us burn out this evil."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3f/Vo_narr_neut_weald_activate.ogg",
+            "text": "Excise the fungal tumors and the land may yet live."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9f/Vo_narr_neut_weald_gather.ogg",
+            "text": "Our land is remote and unneighbored. Every lost resource must be recovered."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f8/Vo_narr_neut_weald_kill.ogg",
+            "text": "There is method in the wild corruption here. It bears a form both wretched and malevolent."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3e/Vo_narr_neut_weald_kill_alt.ogg",
+            "text": "The smell of sulfur and gunpowder hangs in the air, the war machine is close."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/87/Vo_narr_neut_warrens_explore.ogg",
+            "text": "To prosecute our war against the Swine, we must first scout their squalid homes."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8f/Vo_narr_neut_warrens_cleanse.ogg",
+            "text": "They breed quickly down there in the dark, but perhaps we can slay them even faster."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f3/Vo_narr_neut_warrens_activate.ogg",
+            "text": "The Swine draw power from their horrid markings and crude idols - tear them down!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6b/Vo_narr_neut_warrens_gather.ogg",
+            "text": "Even the fiercest beast will lay down when it has not eaten. Steal their food."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/32/Vo_narr_neut_warrens_kill.ogg",
+            "text": "A nameless abomination, a testament to my failures - it must be destroyed!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/ad/Vo_narr_neut_warrens_kill_alt.ogg",
+            "text": "The thing is more terrible than I can describe - an incoherent jumble of organ, sinew and bone."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f3/Vo_narr_neut_cove_explore.ogg",
+            "text": "The smell of rotting fish is almost unbearable..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/40/Vo_narr_neut_cove_cleanse.ogg",
+            "text": "These salt-soaked caverns are teeming with pelagic nightmares - they must be flushed out!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d3/Vo_narr_neut_cove_activate.ogg",
+            "text": "The flopping, fish-like things abhore the warding sigils.  Let us claim this place anew!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7c/Vo_narr_neut_cove_gather.ogg",
+            "text": "Recover these lost shipments of rarities, that we may prevent them from falling into even less scrupulous hands..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a4/Vo_narr_neut_cove_kill_alt.ogg",
+            "text": "I always wondered what became of the unfortunate little waif..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/15/Vo_narr_neut_cove_kill.ogg",
+            "text": "The poor devils, chained and drowning for eternity..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/47/Vo_narr_good_explore_crypts_01.ogg",
+            "text": "The shifted corridors and sloped vaults of our ancestry are beginning to feel familiar."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f1/Vo_narr_good_explore_crypts_02.ogg",
+            "text": "The great Ruins belong to us, and we will find whatever secrets they hold."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/db/Vo_narr_good_cleanse_crypts_01.ogg",
+            "text": "More bones returned to rest. Devils remanded to their abyss."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/26/Vo_narr_good_cleanse_crypts_02.ogg",
+            "text": "Room by room, hall by hall, we reclaim what is ours."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/41/Narration_activateruins1.ogg",
+            "text": "This day belongs to the Light!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e3/Narration_activateruins2.ogg",
+            "text": "Beacons in the darkness, stars in the emptiness of the void."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a6/Vo_narr_good_gather_crypts_01.ogg",
+            "text": "Tokens of hope, recovered from the encroaching dark."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/55/Vo_narr_good_gather_crypts_02.ogg",
+            "text": "The Abbot will be grateful - the trappings of his faith have been restored."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ec/Vo_narr_good_bosskill_crypts_alt_01.ogg",
+            "text": "Did he foresee his own demise? I care not, so long as he remains dead."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/36/Narration_bosskillruins1.ogg",
+            "text": "Even reanimated bones can fall; even the dead can die again."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e2/Narration_bosskillruins2.ogg",
+            "text": "With no living sinew to actuate them, will these walking bones finally fail?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f3/Narration_activateweald1.ogg",
+            "text": "Good fortune and hard work may yet arrest this plague."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fd/Narration_activateweald2.ogg",
+            "text": "Disinfection, at last."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2f/Narration_bosskillweald1.ogg",
+            "text": "The wood is still poisoned. The way is still blocked. But less people will be eaten."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c6/Narration_bosskillweald2.ogg",
+            "text": "Leave her corpse to rot, consumed by the spores she spawned."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/91/Vo_narr_good_bosskill_weald_alt_01.ogg",
+            "text": "A corpse of twisted metal and splintered wood - at home amongst the headstones."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a6/Vo_narr_good_bosskill_weald_alt_02.ogg",
+            "text": "The Brigands are undone - our family crest is once again a symbol of strength!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/eb/Narration_activatewarrens1.ogg",
+            "text": "Ha ha ha! Let those dirty beasts worship the mud now!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/df/Narration_activatewarrens2.ogg",
+            "text": "Robbed of their writings, the Swine will grow ever more ignorant - if such a thing were possible."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/65/Vo_narr_good_bosskill_warrens_alt_01.ogg",
+            "text": "It is as grotesque in death as it was in life..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/40/Vo_narr_good_bosskill_warrens_alt_02.ogg",
+            "text": "Its destruction is a small consolation, given the implications of its terrible existence."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/64/Narration_bosskillwarrens1.ogg",
+            "text": "How many rats will it take to gnaw through a tonne of putrid flesh?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/78/Narration_bosskillwarrens2.ogg",
+            "text": "The thing is even more horrible in death. Liquefaction cannot come soon enough."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/80/Vo_narr_good_explore_cove_01.ogg",
+            "text": "Despite its morbid aspect, this twisted, cavernous maze seems almost traversable."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6d/Vo_narr_good_explore_cove_02.ogg",
+            "text": "We will find all manner of great and terrible things in this watery tomb..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cb/Vo_narr_good_cleanse_cove_01.ogg",
+            "text": "The pungent odour abates! The things are driven back, for a time."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/06/Vo_narr_good_cleanse_cove_02.ogg",
+            "text": "At last, wholesome marine life can flourish - if indeed there is such a thing."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/ab/Vo_narr_good_bosskill_cove_alt_01.ogg",
+            "text": "Hideous matriarch, vile queen of the aphotic depths - she has no place in the sane world!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cc/Vo_narr_good_bosskill_cove_alt_02.ogg",
+            "text": "Seafaring trade, the lifeblood of any port, can resume again now that the routes are safe."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ee/Vo_narr_good_bosskill_cove_01.ogg",
+            "text": "Finally, a sailor's death for captain and crew. Fitting."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_good_bosskill_cove_02.ogg",
+            "text": "They are cursed to float forever, deep in the swirling blackness, far beyond the light's reach."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fa/Narration_expeditionfail1.ogg",
+            "text": "A setback, but not the end of things."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5c/Narration_expeditionfail2.ogg",
+            "text": "Wounds to be tended; lessons to be learned."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/30/Narration_expeditionfail3.ogg",
+            "text": "Regroup. Reassemble. Evil is timeless, after all."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e2/Narration_expeditionfail4.ogg",
+            "text": "Failure tests the mettle of heart, brain, and body."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3b/Narration_expeditionfail5.ogg",
+            "text": "You will endure this loss, and learn from it."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_bad_questfail_11.ogg",
+            "text": "You cannot learn a thing you think you know..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/81/Vo_narr_bad_questfail_06.ogg",
+            "text": "We fall so that we may learn to pick ourselves up once again."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/92/Vo_narr_bad_questfail_07.ogg",
+            "text": "Do not ruminate on this fleeting failure - the campaign is long, and victory will come."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/22/Vo_narr_bad_questfail_08.ogg",
+            "text": "Where there is no peril in the task, there can be no glory in its accomplishment."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/97/Vo_narr_bad_questfail_09.ogg",
+            "text": "Ignorance of your enemy and of yourself will invariably lead to defeat."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/20/Vo_narr_bad_questfail_10.ogg",
+            "text": "Great adversity has a beauty - it is the fire that tempers the blade."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e9/Narration_boss1.ogg",
+            "text": "Towering, fierce, terrible. Nightmare made material!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/04/Vo_narr_bad_boss_crypts_alt.ogg",
+            "text": "The madman hides there, behind the pews, spouting his mindless drivel!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8a/Narration_boss3.ogg",
+            "text": "Twisted and maniacal - a slathering testament to the powers of corruption!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/22/Vo_narr_bad_boss_weald_alt.ogg",
+            "text": "A marvel of technology - an engine of destruction!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/65/Narration_boss2.ogg",
+            "text": "It is a travesty - a blundering mountain of hatred and rage."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1e/Vo_narr_bad_boss_warrens_alt.ogg",
+            "text": "Squirming, contorting and ever-expanding...this horror must be unmade!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/51/Vo_narr_bad_boss_cove_alt.ogg",
+            "text": "The aquatic devils have remade the poor girl in their image!  She is their queen, and their slave!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3b/Vo_narr_bad_boss_cove.ogg",
+            "text": "Even in death, the captain shouts his orders, and the crew obeys..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/25/Vo_narr_bad_collectorspawn_01.ogg",
+            "text": "The twisted faces of the damned, piled high and cloaked in malice!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c0/Vo_narr_bad_collectorspawn_02.ogg",
+            "text": "The sparkling eyes of youth - twisted and made merciless!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1b/Vo_good_collectorkill_01.ogg",
+            "text": "As the ghoulish collection scatters, the rats prepare to feast."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/99/Vo_good_collectorkill_02.ogg",
+            "text": "A predator is often blind to its own peril."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/43/Vo_narr_bad_shamblerspawn_01.ogg",
+            "text": "Behold the infinite malignity of the stars!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/98/Vo_narr_bad_shamblerspawn_02.ogg",
+            "text": "A star-spawned horror!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4c/Vo_narr_bad_shamblerkill_01.ogg",
+            "text": "The space between worlds is no place for mortal men."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/52/Vo_narr_bad_shamblerkill_02.ogg",
+            "text": "It could be dismissed as a fever dream, if not for the corpses."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c4/Vo_narr_good_torchlight_05.ogg",
+            "text": "The match is struck. A blazing star is born!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d9/Vo_narr_good_torchlight_02.ogg",
+            "text": "The way is lit. The path is clear. We require only the strength to follow it."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8a/Vo_narr_good_torchlight_03.ogg",
+            "text": "In radiance may we find victory."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d3/Vo_narr_good_torchlight_04.ogg",
+            "text": "As the light gains purchase, spirits are lifted and purpose is made clear."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/32/Vo_narr_good_torchlight_01.ogg",
+            "text": "The light, the promise of safety!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e6/Narration_torchzero1.ogg",
+            "text": "The darkness holds much worse than mere trickery and bogeymen."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/29/Narration_torchzero2.ogg",
+            "text": "Darkness closes in, haunting the hearts of men."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9d/Narration_torchzero3.ogg",
+            "text": "Terrors may indeed stalk these shadows, but yonder – a glint of gold.\""
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9e/Narration_torchzero4.ogg",
+            "text": "Secrets and wonders can be found in the most tenebrous corners of this place."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f4/Narration_torchzero5.ogg",
+            "text": "And now... the darkness holds dominion – black as death."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d8/Vo_narr_good_camp_03.ogg",
+            "text": "Circled in the dark, the battle may yet be won."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a7/Vo_narr_good_camp_02.ogg",
+            "text": "A spark without kindling is a goal without hope."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/56/Vo_narr_good_camp_04.ogg",
+            "text": "Gathered close in tenuous firelight, and uneasy companionship."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/14/Vo_narr_good_camp_01.ogg",
+            "text": "A moment of respite. A chance to steel oneself against the coming horrors."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/74/Vo_narr_good_camp_05.ogg",
+            "text": "Huddled together, furtive and vulnerable. Rats in a maze."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a5/Narration_trap1.ogg",
+            "text": "Cruel machinations spring to life with a singular purpose!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9a/Narration_trap2.ogg",
+            "text": "Curious is the trap-maker's art... his efficacy unwitnessed by his own eyes."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3b/Narration_trap3.ogg",
+            "text": "Mechanical hazards, possessed by evil intent."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b6/Narration_trap4.ogg",
+            "text": "Ambushed by foul invention!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/ca/Narration_trap5.ogg",
+            "text": "Ancient traps lie in wait, unsprung and thirsting for blood."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8a/Vo_narr_bad_trap_06.ogg",
+            "text": "Carelessness will find no clemency in this place!"
+        },
+        {
+            "altAudio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/73/Vo_narr_bad_trap_8_v1.ogg",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e9/Vo_narr_bad_trap_08_v2.ogg",
+            "text": "Watch your step."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ec/Vo_narr_bad_trap_07.ogg",
+            "text": "Mind that such missteps are the exception, and not the rule."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f3/Narration_obstacleruins.ogg",
+            "text": "Even the cold stone seems bent on preventing passage."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0a/Narration_obstaclewarrens.ogg",
+            "text": "Such blockages are unsurprising – these tunnels predate even the earliest settlers."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7d/Narration_obstacleweald.ogg",
+            "text": "Nature herself - a victim to this spreading corruption: malformed with misintent."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/23/Vo_narr_bad_obstacle_cove.ogg",
+            "text": "Another mariner... Another misfortune."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/34/Narration_obstaclenoshovel.ogg",
+            "text": "Without tools of iron, you must rely on flesh and indefatigable purpose."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/97/Narration_starve1.ogg",
+            "text": "Gnawing hunger sets in, turning the body against itself, weakening the mind…"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2f/Narration_starve2.ogg",
+            "text": "To fall for such a little thing... a bite of bread..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/ba/Narration_starve3.ogg",
+            "text": "Packs full of steel and war, but nary of thought given to the plow."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/66/Narration_starve4.ogg",
+            "text": "No force of will can overcome a failing body."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f9/Narration_starve5.ogg",
+            "text": "The requirements of survival cannot be met on an empty stomach."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/88/Vo_narr_good_heal_04.ogg",
+            "text": "Soothed, sedated."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/96/Vo_narr_good_heal_02.ogg",
+            "text": "A momentary abatement..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/19/Vo_narr_good_heal_03.ogg",
+            "text": "The wounds of war can be healed, but never hidden."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6b/Vo_narr_good_heal_01.ogg",
+            "text": "Compassion is a rarity in the fevered pitch of battle."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3c/Vo_narr_good_healcrit_01.ogg",
+            "text": "Surgical precision!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/20/Vo_narr_good_healcrit_02.ogg",
+            "text": "Vigor is restored!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1f/Vo_narr_good_healcrit_03.ogg",
+            "text": "The blood pumps, the limbs obey!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_good_healcrit_04.ogg",
+            "text": "The flesh is knit!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3e/Vo_narr_good_healdd_01.ogg",
+            "text": "Patched up, if only to bleed again."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1d/Vo_narr_good_healdd_02.ogg",
+            "text": "Death cannot be escaped! But it can be postponed."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cc/Vo_narr_good_healdd_03.ogg",
+            "text": "A death denied for now."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b1/Vo_narr_good_healdd_04.ogg",
+            "text": "Death is patient, it will wait."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1c/Vo_narr_good_killfirst_01.ogg",
+            "text": "As the fiend falls, a faint hope blossoms."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0f/Vo_narr_good_killfirst_02.ogg",
+            "text": "Confidence surges as the enemy crumbles!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f4/Vo_narr_good_killfirst_03.ogg",
+            "text": "Press this advantage, give them no quarter!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/be/Vo_narr_good_killfirst_04.ogg",
+            "text": "Their formation is broken - maintain the offensive."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/76/Vo_narr_good_killfirst_05.ogg",
+            "text": "Continue the onslaught! Destroy. Them. All."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9e/Vo_narr_good_kill_weak_01.ogg",
+            "text": "Executed with impunity!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/12/Vo_narr_good_kill_weak_02.ogg",
+            "text": "Another abomination cleansed from our lands."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6c/Vo_narr_good_kill_weak_03.ogg",
+            "text": "Begone, fiend!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/32/Vo_narr_good_kill_weak_04.ogg",
+            "text": "Back to the pit!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/8c/Vo_narr_good_kill_weak_05.ogg",
+            "text": "Another one falls!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d3/Vo_narr_good_kill_strong_01.ogg",
+            "text": "Decimated!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e1/Vo_narr_good_kill_strong_02.ogg",
+            "text": "Obliterated!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1c/Vo_narr_good_kill_strong_03.ogg",
+            "text": "Destroyed!"
+        },
+        {
+            "altAudio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Vo_narr_good_kill_strong_04_v2.ogg",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0d/Vo_narr_good_kill_strong_04_v1.ogg",
+            "text": "Eradicated!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/53/Vo_narr_good_kill_strong_05.ogg",
+            "text": "Annihilated!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4e/Vo_narr_good_kill_big_03.ogg",
+            "text": "Prodigious size alone does not dissuade the sharpened blade."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3c/Vo_narr_good_kill_big_04.ogg",
+            "text": "Their cursed champion falls!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/34/Vo_narr_good_kill_big_05.ogg",
+            "text": "Monstrous size has no intrinsic merit, unless inordinate exsanguination be considered a virtue."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/40/Vo_narr_good_kill_big_01.ogg",
+            "text": "The bigger the beast, the greater the glory."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2e/Vo_narr_good_kill_big_02.ogg",
+            "text": "A victory - perhaps a turning point."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/bf/Vo_narr_good_kill_dot_03.ogg",
+            "text": "A death by inches..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9f/Vo_narr_good_kill_dot_01.ogg",
+            "text": "Great is the weapon that cuts on its own!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c0/Vo_narr_good_kill_dot_04.ogg",
+            "text": "Slowly, gently, this is how a life is taken..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c2/Vo_narr_good_kill_dot_02.ogg",
+            "text": "The slow death - unforeseen, unforgiving."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/40/Vo_narr_good_crit_05.ogg",
+            "text": "A decisive pummelling!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c9/Vo_narr_good_crit_02.ogg",
+            "text": "A powerful blow!"
+        },
+        {
+            "altAudio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c9/Vo_narr_good_crit_03_alt.ogg",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f6/Vo_narr_good_crit_03.ogg",
+            "text": "A devastating blow!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/62/Vo_narr_good_crit_08.ogg",
+            "text": "Impressive!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a2/Vo_narr_good_crit_09.ogg",
+            "text": "The ground quakes!"
+        },
+        {
+            "altAudio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/6f/Vo_narr_good_crit_04_alt.ogg",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/15/Vo_narr_good_crit_04.ogg",
+            "text": "A singular strike!"
+        },
+        {
+            "altAudio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2b/Vo_narr_good_crit_01_alt.ogg",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7d/Vo_narr_good_crit_01.ogg",
+            "text": "Well struck!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b2/Vo_narr_good_crit_07.ogg",
+            "text": "Precision and power!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/df/Vo_narr_good_crit_06.ogg",
+            "text": "Masterfully executed!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d4/Narration_crit3.ogg",
+            "text": "How quickly the tide turns!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/80/Narration_crit1.ogg",
+            "text": "Mortality clarified in a single strike!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/81/Vo_narr_bad_crit_06.ogg",
+            "text": "Grievous injury, palpable fear..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f6/Narration_crit5.ogg",
+            "text": "Such a terrible assault cannot be left unanswered!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/29/Narration_crit2.ogg",
+            "text": "Death waits for the slightest lapse in concentration."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c7/Vo_narr_bad_crit_10.ogg",
+            "text": "Exposed to a killing blow!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/01/Vo_narr_bad_crit_07.ogg",
+            "text": "Ringing ears, blurred vision - the end approaches..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/aa/Vo_narr_bad_crit_09.ogg",
+            "text": "Unnerved, unbalanced..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/99/Vo_narr_bad_crit_08.ogg",
+            "text": "A dizzying blow to body and brain!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/54/Vo_narr_bad_debuff_01.ogg",
+            "text": "Weakened!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/bc/Vo_narr_bad_debuff_02.ogg",
+            "text": "Diminished!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cc/Vo_narr_bad_debuff_03.ogg",
+            "text": "The will to fight falters!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/86/Vo_narr_bad_debuff_04.ogg",
+            "text": "Confusion, nerves, and panic!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/6/61/Vo_narr_bad_horror_01.ogg",
+            "text": "Gnawing uncertainty - the birthplace of dread."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a2/Vo_narr_bad_horror_02.ogg",
+            "text": "Festering fear consumes the mind!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0e/Vo_narr_bad_horror_03.ogg",
+            "text": "The horror..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/77/Vo_narr_bad_horror_04.ogg",
+            "text": "The abyss returns even the boldest gaze."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/4b/Vo_narr_good_buff_01.ogg",
+            "text": "The blood quickens!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/55/Vo_narr_good_buff_02.ogg",
+            "text": "A brilliant confluence of skill and purpose!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/22/Vo_narr_good_buff_03.ogg",
+            "text": "A time to perform beyond one's limits!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/31/Vo_narr_good_buff_04.ogg",
+            "text": "Inspiration and improvement!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b1/Narration_deathsdoor1.ogg",
+            "text": "Perched at the very precipice of oblivion..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/1/1f/Narration_deathsdoor2.ogg",
+            "text": "A hand-breadth from becoming unwound..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e9/Narration_deathsdoor3.ogg",
+            "text": "Teetering on the brink, facing the abyss..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/42/Narration_deathsdoor4.ogg",
+            "text": "And now the true test... hold fast, or expire?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b9/Narration_deathsdoor5.ogg",
+            "text": "As life ebbs, terrible vistas of emptiness reveal themselves."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a9/Narration_death1.ogg",
+            "text": "Survival is a tenuous proposition in this sprawling tomb."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/b/b8/Narration_death2.ogg",
+            "text": "More blood soaks the soil, feeding the evil therein."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/d0/Narration_death3.ogg",
+            "text": "Another life wasted in the pursuit of glory and gold."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5b/Narration_death4.ogg",
+            "text": "This is no place for the weak, or the foolhardy."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/33/Narration_death5.ogg",
+            "text": "This is no place for the weak, or foolhardy."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9c/Narration_death6.ogg",
+            "text": "More dust, more ashes, more disappointment."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/2e/Vo_narr_good_victoryfirst_01.ogg",
+            "text": "These nightmarish creatures can be felled! They can be beaten!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7b/Vo_narr_good_victoryfirst_08.ogg",
+            "text": "Seize this momentum! Push on to the task's end!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/70/Vo_narr_good_victoryfirst_04.ogg",
+            "text": "This expedition, at least, promises success."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/cd/Vo_narr_good_victoryfirst_05.ogg",
+            "text": "As victories mount, so too will resistance."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/04/Vo_narr_good_victoryfirst_09.ogg",
+            "text": "Success so clearly in view... or is it merely a trick of the light?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/23/Vo_narr_good_victoryfirst_02.ogg",
+            "text": "Remind yourself that overconfidence is a slow and insidious killer."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/8/80/Vo_narr_good_victoryfirst_03.ogg",
+            "text": "A trifling victory, but a victory nonetheless."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a3/Vo_narr_good_victoryfirst_06.ogg",
+            "text": "Be wary - triumphant pride precipitates a dizzying fall..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/de/Vo_narr_good_victoryfirst_07.ogg",
+            "text": "Ghoulish horrors - brought low and driven into the mud!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5d/Vo_narr_bad_invfull_01.ogg",
+            "text": "Impressive haul! If you value such things."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/93/Vo_narr_bad_invfull_02.ogg",
+            "text": "Ornaments neatly ordered, lovingly admired."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/db/Vo_narr_bad_invfull_03.ogg",
+            "text": "Such a burden of finery risks life and limb."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/09/Vo_narr_bad_invfull_04.ogg",
+            "text": "A full pack often attracts unwanted attention."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a0/Narration_retreatfail1.ogg",
+            "text": "True desperation is known only when escape is impossible."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a4/Narration_retreatfail2.ogg",
+            "text": "Cornered! Trapped! And forced to fight on..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3d/Narration_retreatfail3.ogg",
+            "text": "No chance for egress - will this be a massacre?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fe/Vo_narr_good_retreat_success_01.ogg",
+            "text": "This skirmish may be lost, but the battle may yet be won."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9a/Vo_narr_good_retreat_success_02.ogg",
+            "text": "A wise general cuts losses, and regroups."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/c/c0/Vo_narr_good_retreat_success_03.ogg",
+            "text": "The sin is not in being outmatched, but in failing to recognize it."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/9/9b/Narration_halfstats.ogg",
+            "text": "Injury and despondence set the stage for heroism... or cowardice."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/d/dd/Affliction_generic1.ogg",
+            "text": "The human mind - fragile like a robin's egg."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/7/7a/Affliction_generic2.ogg",
+            "text": "Wherefore, heroism?"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ed/Affliction_generic3.ogg",
+            "text": "The mind cannot hope to withstand such an assault."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5b/Affliction_generic4.ogg",
+            "text": "Even the aged oak will fall to the tempest's winds."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5a/Affliction_generic5.ogg",
+            "text": "Madness, our old friend!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e5/Vo_narr_bad_afflicted_06.ogg",
+            "text": "One can sometimes find clarity in madness, but only rarely..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/a2/Vo_narr_bad_afflicted_07.ogg",
+            "text": "Madness - sublimity of the intelligence, or so it has been said."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/a/af/Vo_narr_bad_afflicted_08.ogg",
+            "text": "The bulwarks of the mind have fallen!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/ee/Vo_narr_bad_afflicted_09.ogg",
+            "text": "The abyss is made manifest!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f5/Affliction_abusive.ogg",
+            "text": "Frustration and fury, more destructive than a hundred cannons."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/41/Affliction_fearful.ogg",
+            "text": "Fear and frailty finally claim their due."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/f7/Affliction_paranoid.ogg",
+            "text": "The walls close in, the shadows whisper of conspiracy!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/5/5c/Affliction_hopeless.ogg",
+            "text": "There can be no hope in this hell, no hope at all."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/f/fe/Affliction_selfish.ogg",
+            "text": "Self-preservation is paramount - at any cost!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/0/0c/Affliction_masochistic.ogg",
+            "text": "Those who covet injury find it in no short supply."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/35/Affliction_irrational.ogg",
+            "text": "Reeling, gasping, taken over the edge into madness!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/2/29/Narration_virtuegeneral.ogg",
+            "text": "A moment of valor shines brightest against a backdrop of despair."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/36/Vo_narr_good_virtue_vigorous.ogg",
+            "text": "Adversity can foster hope, and resilience."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/3/3e/Vo_narr_good_virtue_focused.ogg",
+            "text": "A moment of clarity in the eye of the storm..."
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/4/45/Vo_narr_good_virtue_powerful.ogg",
+            "text": "Anger is power - unleash it!"
+        },
+        {
+            "altAudio": "",
+            "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e5/Vo_narr_good_virtue_stalwart.ogg",
+            "text": "Many fall in the face of chaos; but not this one, not today."
+        }
+    ]
+}

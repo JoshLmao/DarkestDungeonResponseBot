@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup as beautifulSoup
 from urllib.request import (urlopen, urlparse, urlunparse, urlretrieve)
 import json
 
+import responses_constants as const
+
 def stripString(string):
     return string.replace("\n", "").replace("“", "").replace("„", "")
 
@@ -13,7 +15,7 @@ def main():
     # Get all <table> and <audio> tags
     allElements = soup.find_all([ "table", "audio" ])
     responseDict = { 
-        'responses': [ ]
+        const.DATABASE_MASTER_KEY: [ ]
     }
 
     length = len(allElements)
@@ -37,14 +39,14 @@ def main():
                 print("Ignoring description of index " + str(i))
                 continue
 
-            responseDict['responses'].append({
+            responseDict[const.DATABASE_MASTER_KEY].append({
                 "text": text,
                 "audio": firstAudio,
                 "altAudio": altAudio,
             })
 
     # Dump JSON to file, pretty printed
-    with open('responses.json', 'w') as f:
+    with open(const.DATABASE_FILE_NAME, 'w') as f:
         json.dump(responseDict, f, ensure_ascii=False, indent=4, sort_keys=True)
     
 if __name__ == '__main__':

@@ -25,13 +25,14 @@ def cleanString(phraseStr, toLower=True):
         return phraseStr
 
 def checkDatabase(respDatabase, phrase):
-    responses = respDatabase['responses']
+    responses = respDatabase[const.DATABASE_MASTER_KEY]
     for r in responses:
         responseLine = cleanString(r['text'])
         # Criteria: Match completely...
         if phrase == responseLine:
             return r
         # OR users comment has part of full response line
+        # Too many false positives, removed for now 
         # if (phrase in responseLine):
         #     return r
 
@@ -61,7 +62,7 @@ def scan(respDatabase):
         checkComments(respDatabase, post)
 
 def loadDatabase():
-    with open('responses.json') as jsonFile:
+    with open(const.DATABASE_FILE_NAME) as jsonFile:
         return json.load(jsonFile)
 
 def main():
