@@ -330,3 +330,7 @@ ASALocalRun/
 .mfractor/
 
 \.vscode/
+
+responses\.json
+
+py_36_pip_install\.bat
