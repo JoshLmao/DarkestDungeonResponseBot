@@ -22,7 +22,7 @@
 
 A simple Reddit bot created using Python 3.6 to respond to recent Reddit comments in a certain subreddit. The bot looks for phrases and voice lines from the Darkest Dungeon's Narrator.
 
-All responses can be found in the [responses.json](./responses.json) file or on the [Narrator's Gamepedia page](https://darkestdungeon.gamepedia.com/Narrator). Massive thanks to the creators and maintainers of [the Darkest Dungeon Gamepedia](https://darkestdungeon.gamepedia.com) for organizing and sorting his voice lines
+All responses can be found in the [voice_lines.json](./voice_lines.json) file or on the [Narrator's Gamepedia page](https://darkestdungeon.gamepedia.com/Narrator). Massive thanks to the creators and maintainers of [the Darkest Dungeon Gamepedia](https://darkestdungeon.gamepedia.com) for organizing and sorting his voice lines
 
 ## How it works
 
