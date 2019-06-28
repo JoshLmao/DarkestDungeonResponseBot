@@ -72,6 +72,10 @@ def loadDatabase():
         return json.load(jsonFile)
 
 def begin():
+    if not const.APP_ID or not const.APP_SECRET:
+        logging.error("Unable to start bot. APP_ID or APP_SECRET is requires")
+        return
+
     # Load database into memory
     responseDatabase = loadDatabase()
     while True:
