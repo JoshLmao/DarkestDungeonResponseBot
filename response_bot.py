@@ -47,15 +47,18 @@ def hasReplied(repliesArray):
 def checkComments(respDatabase, post):
     for comment in post.comments:
         # Check if already posted a response
+        # Shorten comment to 5 words for display purposes
+        commentShort = " ".join(comment.body.split()[:5])
         if hasReplied(comment.replies):
-            commentFiveWords = comment.body.split()[:5]
-            logging.info("Already to replied to comment '%s' by '%s' on post '%s'" % (" ".join(commentFiveWords), comment.author.name, post.title))
+            logging.debug("Already replied to comment '%s' by '%s' on post '%s'" % (commentShort, comment.author.name, post.title))
             continue
             
         commentClean = cleanString(comment.body)
         dbMatch = checkDatabase(respDatabase, commentClean)
         if dbMatch != None:
-            reddit.reply(comment, dbMatch)
+            result = reddit.reply(comment, dbMatch)
+            if result:
+                logging.info("Replying to comment '%s' - '%s'" % (comment.author.name, commentShort))
 
 # Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
@@ -83,6 +86,6 @@ def begin():
         scan(responseDatabase)
 
         # Complete scan and sleep for X minutes
-        logging.info("Completed scanning comments. Sleeping for %d minutes" % const.SLEEP_MINUTES)
+        logging.info("Completed scanning comments. Sleeping for %d minute(s)" % const.SLEEP_MINUTES)
         time.sleep(const.SLEEP_MINUTES * 60)
 

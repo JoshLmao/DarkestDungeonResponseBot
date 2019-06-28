@@ -15,6 +15,7 @@ def getSub(subredditName):
 def reply(comment, dbValue):
     try:
         comment.reply(const.BOT_MESSAGE % (dbValue['text'], dbValue['audio']))
+        return True
     except praw.exceptions.APIException as e:
         logging.error("Couldn't reply to comment - " + e.message)
-        pass
+        return False
