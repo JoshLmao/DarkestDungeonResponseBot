@@ -19,3 +19,6 @@ if __name__ == '__main__':
         logging.info("Stopped program because of keyboard interruption")
     except Exception as ex:
         logging.exception("Unknown exception - " + traceback.format_exc())
+    finally:
+        bot.dispose()
+        logging.info("Exiting program")
