@@ -92,10 +92,10 @@ def begin():
         return
 
     # Post to profile with info
-    # profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
-    # debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
-    # debugPost.mod.sticky()
-    # logging.debug("Created and stickied debug post on self subreddit")
+    profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
+    debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
+    debugPost.mod.sticky()
+    logging.debug("Created and stickied debug post on self subreddit")
 
     # Load database into memory
     responseDatabase = loadDatabase()
