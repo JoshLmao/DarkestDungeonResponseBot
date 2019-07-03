@@ -49,8 +49,11 @@ def checkComments(respDatabase, post):
         # Check if already posted a response
         # Shorten comment to 5 words for display purposes
         commentShort = " ".join(comment.body.split()[:5])
+        commentAuthor = "Unknown"
+        if comment.author:
+            commentAuthor = comment.author.name
         if hasReplied(comment.replies):
-            logging.debug("Already replied to comment '%s' by '%s' on post '%s'" % (commentShort, comment.author.name or "Unknown", post.title))
+            logging.debug("Already replied to comment '%s' by '%s' on post '%s'" % (commentShort, commentAuthor, post.title))
             continue
             
         commentClean = cleanString(comment.body)
@@ -58,7 +61,7 @@ def checkComments(respDatabase, post):
         if dbMatch != None:
             result = reddit.reply(comment, dbMatch)
             if result:
-                logging.info("Replying to comment '%s' - '%s'" % (comment.author.name or "Unknown", commentShort))
+                logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
 
 # Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
