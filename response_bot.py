@@ -37,6 +37,11 @@ def checkDatabase(respDatabase, phrase):
         # if (phrase in responseLine):
         #     return r
 
+def contains(list, checkItem):
+    for item in list:
+        if item == checkItem:
+            return True
+
 # Check to see if the bot already replied to the comment
 def hasReplied(repliesArray):
     for reply in repliesArray:
@@ -44,7 +49,7 @@ def hasReplied(repliesArray):
             return True
 
 # Checks a post comments for a match
-def checkComments(respDatabase, post):
+def checkComments(respDatabase, post, repliedIds):
     for comment in post.comments:
         # Check if already posted a response
         # Shorten comment to 5 words for display purposes
@@ -52,7 +57,7 @@ def checkComments(respDatabase, post):
         commentAuthor = "Unknown"
         if comment.author:
             commentAuthor = comment.author.name
-        if hasReplied(comment.replies):
+        if hasReplied(comment.replies) or contains(repliedIds, comment.id):
             logging.debug("Already replied to comment '%s' by '%s' on post '%s'" % (commentShort, commentAuthor, post.title))
             continue
             
@@ -60,17 +65,21 @@ def checkComments(respDatabase, post):
         dbMatch = checkDatabase(respDatabase, commentClean)
         if dbMatch != None:
             result = reddit.reply(comment, dbMatch)
+            repliedIds.append(comment.id)
             if result:
                 logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
 
 # Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
+    # Store array of replied to comment id's this scan to not reply more than once
+    repliedCommentIds = [ ]
+
     subreddit = reddit.getSub(const.SUBREDDIT)
     for post in subreddit.new(limit=const.NEW_POST_LIMIT):
-        checkComments(respDatabase, post)
+        checkComments(respDatabase, post, repliedCommentIds)
 
     for post in subreddit.hot(limit=const.HOT_POST_LIMIT):
-        checkComments(respDatabase, post)
+        checkComments(respDatabase, post, repliedCommentIds)
 
 # Reads the db file name and returns the db
 def loadDatabase():
@@ -83,10 +92,10 @@ def begin():
         return
 
     # Post to profile with info
-    profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
-    debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
-    debugPost.mod.sticky()
-    logging.debug("Created and stickied debug post on self subreddit")
+    # profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
+    # debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
+    # debugPost.mod.sticky()
+    # logging.debug("Created and stickied debug post on self subreddit")
 
     # Load database into memory
     responseDatabase = loadDatabase()
