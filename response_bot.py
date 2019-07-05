@@ -44,9 +44,20 @@ def contains(list, checkItem):
 
 # Check to see if the bot already replied to the comment
 def hasReplied(repliesArray):
+    isMoreComments = False
     for reply in repliesArray:
-        if reply.author != None and reply.author.name == const.BOT_NAME:
-            return True
+        if hasattr(reply, 'children'):
+            isMoreComments = True
+
+        if isMoreComments:
+            for childId in reply.children:
+                active = reddit.getRedditActive()
+                comment = active.comment(id=childId)
+                if comment.author != None and comment.author.name == const.BOT_NAME:
+                    return True
+        else:
+            if reply.author != None and reply.author.name == const.BOT_NAME:
+                return True
 
 # Checks a post comments for a match
 def checkComments(respDatabase, post, repliedIds):
