@@ -8,17 +8,39 @@ import string
 import responses_constants as const
 import reddit_service as reddit
 
+# Removed any amount of white space left at beginning and end of string
+def removeLeadingTrailingWhiteSpace(str):
+    while str != "" and str[0] == ' ':
+        str = str.lstrip()
+    while str != "" and str[len(str) - 1] == ' ':
+        str = str.rstrip()
+    return str
+
+# Removes any markdown syntax from the string
+def removeMarkdown(str):
+    markdownSyntax = [
+        "\\*", 
+        "\\_",
+        "\\[", "\\]", "\\(", "\\)",
+        "\\~",
+        "\\^"
+    ]
+    removed = str
+    for syntax in markdownSyntax:
+        if syntax in removed:
+            removed = removed.remove(syntax, "")
+    return removed
+
 # Cleans a string to remove any unwanted punctuation, emojis and/or line endings and converts to lower case, useful for comparing
 def cleanString(phraseStr, toLower=True):
     # Remove punc
     phraseStr = phraseStr.translate(str.maketrans('', '', string.punctuation))
     # Remove Emojis 😭
     phraseStr = phraseStr.encode('ascii', 'ignore').decode('ascii')
+    # Remove markdown formatting
+    phraseStr = removeMarkdown(phraseStr)
     # Remove any unwanted white space at beginning or end
-    if phraseStr[0] == ' ':
-        phraseStr = phraseStr.lstrip()
-    if phraseStr[len(phraseStr) - 1] == ' ':
-        phraseStr = phraseStr.rstrip()
+    phraseStr = removeLeadingTrailingWhiteSpace(phraseStr)
     if toLower:
         return phraseStr.lower()
     else:
@@ -53,30 +75,34 @@ def hasReplied(repliesArray):
             for childId in reply.children:
                 active = reddit.getRedditActive()
                 comment = active.comment(id=childId)
-                if comment.author != None and comment.author.name == const.BOT_NAME:
+                if comment and comment.author and comment.author.name == const.BOT_NAME:
                     return True
         else:
-            if reply.author != None and reply.author.name == const.BOT_NAME:
+            if reply and reply.author and reply.author.name == const.BOT_NAME:
                 return True
 
 # Checks a post comments for a match
-def checkComments(respDatabase, post, repliedIds):
-    for comment in post.comments:
+def checkComments(respDatabase, replies, repliedIds):
+    for reply in replies:
+        # Ignore deleted/removed comments
+        # if "deleted" in comment.body or "removed" in comment.body:
+        #     continue
+
         # Check if already posted a response
         # Shorten comment to 5 words for display purposes
-        commentShort = " ".join(comment.body.split()[:5])
+        commentShort = " ".join(reply.body.split()[:5])
         commentAuthor = "Unknown"
-        if comment.author:
-            commentAuthor = comment.author.name
-        if hasReplied(comment.replies) or contains(repliedIds, comment.id):
-            logging.debug("Already replied to comment '%s' by '%s' on post '%s'" % (commentShort, commentAuthor, post.title))
+        if reply.author:
+            commentAuthor = reply.author.name
+        if hasReplied(reply.replies) or contains(repliedIds, reply.id):
+            logging.debug("Already replied to comment '%s' by '%s'" % (commentShort, commentAuthor))
             continue
             
-        commentClean = cleanString(comment.body)
+        commentClean = cleanString(reply.body)
         dbMatch = checkDatabase(respDatabase, commentClean)
         if dbMatch != None:
-            result = reddit.reply(comment, dbMatch)
-            repliedIds.append(comment.id)
+            result = reddit.reply(reply, dbMatch)
+            repliedIds.append(reply.id)
             if result:
                 logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
 
@@ -87,10 +113,10 @@ def scan(respDatabase):
 
     subreddit = reddit.getSub(const.SUBREDDIT)
     for post in subreddit.new(limit=const.NEW_POST_LIMIT):
-        checkComments(respDatabase, post, repliedCommentIds)
+        checkComments(respDatabase, post.comments, repliedCommentIds)
 
     for post in subreddit.hot(limit=const.HOT_POST_LIMIT):
-        checkComments(respDatabase, post, repliedCommentIds)
+        checkComments(respDatabase, post.comments, repliedCommentIds)
 
 # Reads the db file name and returns the db
 def loadDatabase():
@@ -103,25 +129,30 @@ def begin():
         return
 
     # Post to profile with info
-    profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
-    debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
-    debugPost.mod.sticky()
-    logging.debug("Created and stickied debug post on self subreddit")
+    if const.DEBUG_PROFILE_POST:
+        profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
+        debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
+        debugPost.mod.sticky()
+        logging.debug("Created and stickied debug post on self subreddit")
 
     # Load database into memory
     responseDatabase = loadDatabase()
     while True:
         logging.info("Beginning to scan comments...")
-        scan(responseDatabase)
+        try:
+            scan(responseDatabase)
+        except praw.exceptions.PRAWException as ex:
+            logging.info("PRAW Exception occured when scanning - " + str(ex))
 
         # Complete scan and sleep for X minutes
         logging.info("Completed scanning comments. Sleeping for %d minute(s)" % const.SLEEP_MINUTES)
         time.sleep(const.SLEEP_MINUTES * 60)
 
 def dispose():
-    profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
-    posts = profileSub.new(limit=3)
-    for post in posts:
-        if "Live on subreddit" in post.title:
-            logging.debug("Removing info post on own subreddit")
-            post.delete()
+    if const.DEBUG_PROFILE_POST:
+        profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
+        posts = profileSub.new(limit=3)
+        for post in posts:
+            if "Live on subreddit" in post.title:
+                logging.debug("Removing info post on own subreddit")
+                post.delete()
