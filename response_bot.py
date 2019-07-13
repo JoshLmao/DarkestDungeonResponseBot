@@ -143,6 +143,8 @@ def begin():
             scan(responseDatabase)
         except praw.exceptions.PRAWException as ex:
             logging.info("PRAW Exception occured when scanning - " + str(ex))
+        except Exception as e:
+            logging.info("Unexpected exception - " + str(e))
 
         # Complete scan and sleep for X minutes
         logging.info("Completed scanning comments. Sleeping for %d minute(s)" % const.SLEEP_MINUTES)
