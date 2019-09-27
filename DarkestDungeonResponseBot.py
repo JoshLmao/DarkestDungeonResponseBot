@@ -20,5 +20,5 @@ if __name__ == '__main__':
     except Exception as ex:
         logging.exception("Unknown exception - " + traceback.format_exc())
     finally:
-        bot.dispose()
+        bot.clearDebugPost()
         logging.info("Exiting program")

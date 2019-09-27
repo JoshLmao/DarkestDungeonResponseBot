@@ -123,12 +123,22 @@ def loadDatabase():
     with open(const.DATABASE_FILE_NAME) as jsonFile:
         return json.load(jsonFile)
 
+def clearDebugPost():
+    if const.DEBUG_PROFILE_POST:
+        profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
+        posts = profileSub.new()
+        for post in posts:
+            if "Live on subreddit" in post.title:
+                logging.debug("Removing info post on own subreddit")
+                post.delete()
+
 def begin():
     if not const.APP_ID or not const.APP_SECRET:
         logging.error("Unable to start bot. APP_ID or APP_SECRET is requires")
         return
 
     # Post to profile with info
+    clearDebugPost()
     if const.DEBUG_PROFILE_POST:
         profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
         debugPost = profileSub.submit("Live on subreddit /r/%s" % const.SUBREDDIT, "Live on '%s' \n\nHot post count: '%s'\n\nNew post count: '%s'" % (const.SUBREDDIT, const.HOT_POST_LIMIT, const.NEW_POST_LIMIT))
@@ -149,12 +159,4 @@ def begin():
         # Complete scan and sleep for X minutes
         logging.info("Completed scanning comments. Sleeping for %d minute(s)" % const.SLEEP_MINUTES)
         time.sleep(const.SLEEP_MINUTES * 60)
-
-def dispose():
-    if const.DEBUG_PROFILE_POST:
-        profileSub = reddit.getRedditActive().subreddit("u_%s" % const.BOT_NAME)
-        posts = profileSub.new(limit=3)
-        for post in posts:
-            if "Live on subreddit" in post.title:
-                logging.debug("Removing info post on own subreddit")
-                post.delete()
+        
