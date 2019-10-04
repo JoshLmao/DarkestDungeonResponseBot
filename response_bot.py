@@ -59,6 +59,7 @@ def checkDatabase(respDatabase, phrase):
         # if (phrase in responseLine):
         #     return r
 
+# Simple array contains function
 def contains(list, checkItem):
     for item in list:
         if item == checkItem:
@@ -81,30 +82,51 @@ def hasReplied(repliesArray):
             if reply and reply.author and reply.author.name == const.BOT_NAME:
                 return True
 
-# Checks a post comments for a match
-def checkComments(respDatabase, replies, repliedIds):
-    for reply in replies:
-        # Ignore deleted/removed comments
-        # if "deleted" in comment.body or "removed" in comment.body:
-        #     continue
+def validateReply(respDatabase, repliedIds, reply):
+    # Ignore deleted/removed comments
+    # if "deleted" in comment.body or "removed" in comment.body:
+    #     continue
 
-        # Check if already posted a response
-        # Shorten comment to 5 words for display purposes
-        commentShort = " ".join(reply.body.split()[:5])
-        commentAuthor = "Unknown"
-        if reply.author:
-            commentAuthor = reply.author.name
-        if hasReplied(reply.replies) or contains(repliedIds, reply.id):
-            logging.debug("Already replied to comment '%s' by '%s'" % (commentShort, commentAuthor))
-            continue
-            
-        commentClean = cleanString(reply.body)
-        dbMatch = checkDatabase(respDatabase, commentClean)
-        if dbMatch != None:
-            result = reddit.reply(reply, dbMatch)
+    if reply and reply.author and reply.author.name == const.BOT_NAME:
+        return False
+    
+    # Check if already posted a response
+    # Shorten comment to 5 words for display purposes in cmd
+    commentShort = " ".join(reply.body.split()[:5])
+    commentAuthor = "Unknown"
+    if reply.author:
+        commentAuthor = reply.author.name
+    if hasReplied(reply.replies) or contains(repliedIds, reply.id):
+        logging.debug("Already replied to comment '%s' by '%s'" % (commentShort, commentAuthor))
+        return False
+        
+    commentClean = cleanString(reply.body)
+    dbMatch = checkDatabase(respDatabase, commentClean)
+    if dbMatch != None:
+        result = reddit.reply(reply, dbMatch)
+        if result:
             repliedIds.append(reply.id)
-            if result:
-                logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
+            logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
+        return result
+
+# Recursively checks if any & all child comments from the parentReply are valid for the bot to respond
+def checkReplies(respDatabase, repliedIds, parentReply):
+    for reply in parentReply:
+        validateReply(respDatabase, repliedIds, reply)
+
+        if reply.replies:
+            checkReplies(respDatabase, repliedIds, reply.replies)
+
+# Checks a post comments for a match
+def checkComments(respDatabase, repliedIds, topLevelReplies):
+    for reply in topLevelReplies:
+        # Check and respond if comment is valid for bot
+        validateReply(respDatabase, repliedIds, reply)
+        
+        # If first reply to this top level comment has other replies, recursively check
+        if reply.replies:
+            checkReplies(respDatabase, repliedIds, reply.replies)
+
 
 # Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
@@ -112,11 +134,15 @@ def scan(respDatabase):
     repliedCommentIds = [ ]
 
     subreddit = reddit.getSub(const.SUBREDDIT)
+    logging.info("Starting scan of 'New' posts")
     for post in subreddit.new(limit=const.NEW_POST_LIMIT):
-        checkComments(respDatabase, post.comments, repliedCommentIds)
+        checkComments(respDatabase, repliedCommentIds, post.comments)
+        logging.info("Scanned post '%s'" % post.title)
 
+    logging.info("Starting scan of 'Hot' posts")
     for post in subreddit.hot(limit=const.HOT_POST_LIMIT):
-        checkComments(respDatabase, post.comments, repliedCommentIds)
+        checkComments(respDatabase, repliedCommentIds, post.comments)
+        logging.info("Scanned post '%s'" % post.title)
 
 # Reads the db file name and returns the db
 def loadDatabase():
@@ -148,13 +174,7 @@ def begin():
     # Load database into memory
     responseDatabase = loadDatabase()
     while True:
-        logging.info("Beginning to scan comments...")
-        try:
-            scan(responseDatabase)
-        except praw.exceptions.PRAWException as ex:
-            logging.info("PRAW Exception occured when scanning - " + str(ex))
-        except Exception as e:
-            logging.info("Unexpected exception - " + str(e))
+        scan(responseDatabase)
 
         # Complete scan and sleep for X minutes
         logging.info("Completed scanning comments. Sleeping for %d minute(s)" % const.SLEEP_MINUTES)

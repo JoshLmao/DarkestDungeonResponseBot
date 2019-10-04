@@ -1,7 +1,7 @@
 # Reddit API information - Can be found at https://www.reddit.com/prefs/apps
 APP_ID = ''
 APP_SECRET = ''
-APP_AGENT = 'Darkest Dungeon Response Bot v0.2 - /u/JoshLmao'
+APP_AGENT = 'Darkest Dungeon Response Bot v0.3 - /u/JoshLmao'
 
 # Username and password of the Reddit bot
 BOT_NAME = 'dd_responses_bot'
