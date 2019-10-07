@@ -103,30 +103,23 @@ def validateReply(respDatabase, repliedIds, reply):
     commentClean = cleanString(reply.body)
     dbMatch = checkDatabase(respDatabase, commentClean)
     if dbMatch != None:
-        result = reddit.reply(reply, dbMatch)
+        result = True #reddit.reply(reply, dbMatch)
         if result:
             repliedIds.append(reply.id)
             logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
         return result
 
-# Recursively checks if any & all child comments from the parentReply are valid for the bot to respond
-def checkReplies(respDatabase, repliedIds, parentReply):
-    for reply in parentReply:
-        validateReply(respDatabase, repliedIds, reply)
-
-        if reply.replies:
-            checkReplies(respDatabase, repliedIds, reply.replies)
-
-# Checks a post comments for a match
-def checkComments(respDatabase, repliedIds, topLevelReplies):
-    for reply in topLevelReplies:
-        # Check and respond if comment is valid for bot
-        validateReply(respDatabase, repliedIds, reply)
-        
-        # If first reply to this top level comment has other replies, recursively check
-        if reply.replies:
-            checkReplies(respDatabase, repliedIds, reply.replies)
-
+# Checks all comments in a post for a match
+# Checks all top level comments, then second, etc...
+def checkComments(respDatabase, repliedIds, post):
+    # Snippet originally from
+    # https://praw.readthedocs.io/en/latest/tutorials/comments.html#the-replace-more-method
+    post.comments.replace_more(limit=None)
+    comment_queue = post.comments[:]  
+    while comment_queue:
+        comment = comment_queue.pop(0)
+        validateReply(respDatabase, repliedIds, comment)
+        comment_queue.extend(comment.replies)
 
 # Scans /new/ and then /hot/ for matching comments
 def scan(respDatabase):
@@ -136,12 +129,12 @@ def scan(respDatabase):
     subreddit = reddit.getSub(const.SUBREDDIT)
     logging.info("Starting scan of 'New' posts")
     for post in subreddit.new(limit=const.NEW_POST_LIMIT):
-        checkComments(respDatabase, repliedCommentIds, post.comments)
+        checkComments(respDatabase, repliedCommentIds, post)
         logging.info("Scanned post '%s'" % post.title)
 
     logging.info("Starting scan of 'Hot' posts")
     for post in subreddit.hot(limit=const.HOT_POST_LIMIT):
-        checkComments(respDatabase, repliedCommentIds, post.comments)
+        checkComments(respDatabase, repliedCommentIds, post)
         logging.info("Scanned post '%s'" % post.title)
 
 # Reads the db file name and returns the db

@@ -1,13 +1,13 @@
 # Reddit API information - Can be found at https://www.reddit.com/prefs/apps
 APP_ID = ''
 APP_SECRET = ''
-APP_AGENT = 'Darkest Dungeon Response Bot v0.3 - /u/JoshLmao'
+APP_AGENT = 'Darkest Dungeon Response Bot v0.4 - /u/JoshLmao'
 
 # Username and password of the Reddit bot
 BOT_NAME = 'dd_responses_bot'
 BOT_PASSWORD = ''
 # Message should contain 2 strings to add at runtime in this order: Description, Audio Url
-BOT_MESSAGE = '''[%s](%s)\n\n------\n\n[^(Source)](https://github.com/JoshLmao/DarkestDungeonResponseBot) ^(|) [^(Issues)](https://github.com/JoshLmao/DarkestDungeonResponseBot/Issues) ^(|) [^(Support ☕)](https://ko-fi.com/joshlmao)'''
+BOT_MESSAGE = '''[%s](%s)\n\n------\n\n[^(Source)](https://github.com/JoshLmao/DarkestDungeonResponseBot) ^(|) [^(Issues)](https://github.com/JoshLmao/DarkestDungeonResponseBot/issues) ^(|) [^(Support ☕)](https://ko-fi.com/joshlmao)'''
 
 # Relevant file name of the JSON database file (same folder as .py)
 DATABASE_FILE_NAME = "voice_lines.json"
