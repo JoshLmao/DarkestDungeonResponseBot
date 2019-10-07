@@ -103,7 +103,7 @@ def validateReply(respDatabase, repliedIds, reply):
     commentClean = cleanString(reply.body)
     dbMatch = checkDatabase(respDatabase, commentClean)
     if dbMatch != None:
-        result = True #reddit.reply(reply, dbMatch)
+        result = reddit.reply(reply, dbMatch)
         if result:
             repliedIds.append(reply.id)
             logging.info("Replying to comment '%s' - '%s'" % (commentAuthor, commentShort))
