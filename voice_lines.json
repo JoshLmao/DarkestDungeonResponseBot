@@ -1704,6 +1704,41 @@
             "altAudio": "",
             "audio": "https://gamepedia.cursecdn.com/darkestdungeon_gamepedia/e/e5/Vo_narr_good_virtue_stalwart.ogg",
             "text": "Many fall in the face of chaos; but not this one, not today."
-        }
+        },
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/6/60/Vo_narr_good_lootfirst_01.ogg",
+			"text": "Glittering gold, trinkets and baubles - paid for in blood."
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/5/54/Vo_narr_good_lootfirst_02.ogg",
+			"text": "If only treasure could staunch the flow of otherworldly corruption..."
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/3/3d/Vo_narr_good_lootfirst_03.ogg",
+			"text": "Finding the stuff is only the first test - now it must be carried home."
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/3/39/Vo_narr_good_lootfirst_04.ogg",
+			"text": "Packs laden with loot are often low on supplies."
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/0/0d/Vo_narr_good_lootfirst_05.ogg",
+			"text": "Wealth beyond measure, awarded to the brave and the foolhardy alike. 	"
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/9/97/Vo_narr_good_lootfirst_06.ogg",
+			"text": "A fortune - waiting to be spent. 	"
+		},
+        {
+			"altAudio": "",
+			"audio": "https://static.wikia.nocookie.net/darkestdungeon_gamepedia/images/c/c4/Vo_narr_good_lootfirst_07.ogg",
+			"text": "A handsome reward for a task well performed."
+		}
     ]
 }
